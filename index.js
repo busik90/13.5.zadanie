@@ -11,7 +11,7 @@ process.stdin.on('readable', function() {
     var instruction = input.toString().trim();
 
     switch (instruction) {
-      case 'commands':
+      case '/commands':
         commands();
         break;
 
